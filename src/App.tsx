@@ -1631,6 +1631,12 @@ const FooterMenuBlock = styled.div`
     display: flex;
     flex-direction: column;
     gap: 32px;
+
+    @media screen and (max-width: 600px) {
+        & {
+            gap: 22px;
+        }
+    }
 `
 
 const FooterMenuTitle = styled.span`
